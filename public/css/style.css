@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    padding:10px;
+}
+.article{
+    margin:10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding:10px;
+    cursor: pointer;
+}
+
+.form-field{
+    margin:10px;
+}
+
+.title,.author{
+    width:400px;
+}
+.body{
+    width:400px;
+    height:200px;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding:2px;
+    border-radius: 4px;
+    color:black;
+    margin:10px;
+}
+.actions{
+    display:flex;
+    justify-content: space-between;
+}
+p{
+    margin-bottom: 10px;
+}
